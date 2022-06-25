@@ -1,0 +1,101 @@
+body{
+    background-color: coral;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#encabezado{
+    background-color: mintcream;
+}
+
+#encabezado{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding:10px;
+    margin: 0%;
+}
+
+nav ul{
+    background-color: bisque;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: bisque;
+}
+
+#cont-img{
+    background-image: url("./umeboshi.jpg");
+    height: 400px;
+    background-position: center;
+}
+
+#cont-img .imagen h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.contenedor{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#contenido-principal{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+#barra-lateral{
+    float: right;
+    width: 30%;
+    background-color: rgb(83, 196, 211);
+    padding: 15px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#parte-inferior{
+    //background-color: rgb(83, 196, 211);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+@media(max-width:650px){
+    #contenido-principal{
+        width: 100%;
+        float: none;
+    }
+    #barra-lateral{
+        width: 100$;
+        float: none;
+    }
+}
